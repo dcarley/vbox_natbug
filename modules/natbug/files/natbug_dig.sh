@@ -6,5 +6,5 @@ while true; do
     echo
     echo "Query #$i"
     dig +noall +answer "$1"
-    sleep 0.2
+    sleep 0.1
 done
